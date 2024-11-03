@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supreme Student Council</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to the external CSS file -->
+</head>
+<body>
+    <div class="navbar">
+        <div class="menu">
+            <a href="#">Events</a>
+            <a href="#">Attendance</a>
+            <a href="#">About Us</a>
+        </div>
+        <div class="logout">
+            <img src="ssc logo.png" alt="User Image">
+            <a href="#">Logout</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <h1>Events</h1>
+        <div class="table-container">
+            <button class="add-event-button" onclick="window.location.href='add_event.php'">Add Event</button>
+            <table>
+                <thead>
+                    <tr>
+                        <th>No.</th>
+                        <th>Events</th>
+                        <th>Description</th>
+                        <th>Date</th>
+                        <th>Program Info</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>PASABAT 2024</td>
+                        <td>To welcome and orient the new students</td>
+                        <td>08/13/2024</td>
+                        <td><a href="#">View</a></td>
+                        <td class="actions">
+                            <a href="edit_event.php?id=1">Edit</a>
+                            <a href="delete_event.php?id=1">Delete</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>TEACHERS DAY</td>
+                        <td>To celebrate their special day as a national hero</td>
+                        <td>10/05/2024</td>
+          
